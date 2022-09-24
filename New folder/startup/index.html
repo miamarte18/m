@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title> M&M Car Wash  </title>
+    <!-- CSS Style Sheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+    <!--  Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Indie+Flower&family=The+Nautigal&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bc448f0f97.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <!--Google Icon -->
+    <script src="https://kit.fontawesome.com/bc448f0f97.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!-- Nav bar -->
+    <section id="title">
+        <div class="container-fluid">
+
+            <div class="navlist">
+                <nav class="navbar navbar-expand-lg navbar-dark  ">
+                    <a class="nav-brand" href=""> M&M Car Wash </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Contact </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Pricing </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Appointment </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+<!-- Title/body of the page -->
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="text1"> A great place to wash your car!   </h1>
+                    <h2 class="info">
+                        Founded in 2009, 25 years of experience. Thank you for the support.
+                    </h2>
+                   <!-- <button type="button" class="btn btn-dark btn-lg"> <i class="fa-solid fa-calendar-check"></i> AVAILABILITY</button> -->
+                </div>
+<!-- Make your appointment box -->
+                <div class="col-lg-6">
+                    <div class="smart-wrap">
+                        <div class="smart-forms smart-container wrap-2">
+
+                            <div class="form-header header-primary">
+                                <h4><i class="fa fa-calendar"></i>Make Your Appointment </h4>
+                            </div>
+
+                            <form method="post" action="/" id="booking-form">
+                                <div class="form-body">
+
+                                    <!-- OUR FORM ELEMENTS WILL GO HERE -->
+                                    <div class="Section">
+                                        <label for="guestName" class="field-name"> Enter Name </label>
+                                        <label for="guestName" class="field prepend-icon">
+                                            <input type="text" class="guestName" id="guestName" required="" placeholder="John Alpo/ Jane Alpo " />
+                                            <span class="field-icon" > <i class="fa fa-user"> </i></span>
+                                        </label>
+                                    </div>
+                                    <div class="frm-row">
+                                        <div class="Section colm colm6">
+                                            <label for="guestEmail "class="field-label"> Email Adress</label>
+                                            <label for="guestEmail" class="field prepend-icon"> </label>
+                                                <input type="text" class="guestEmail" id="guestEmail" required="" placeholder="mia@something.com" /> 
+                                                <span class="field-icon" > <i class="fa fa-user" > </i></span>
+                                        </div>
+                                     <div class="Section colm colm6" >
+                                         <label for="guestNumber" class="field-label"> Telephone</label>
+                                         <label for="guestNumber" class="field prepend-icon"> </label>
+                                           <input type="text" class="guestNumber" id="guestNumber" required="" placeholder="098-654-7561" />
+                                            <span class="field-icon"> <i class="fa fa-user " ></i></span>
+                                     </div>
+                                    </div>
+                                    <div class="frm-row">
+                                        <div class="Section colm colm6">
+                                            <label for="plan" class="field-label"> Plan </label>
+                                            <label for="plan" class="field prepend-icon" > </label>
+                                              <input type="text" class="plan" id="plan" required="" />
+                                            <span class="field-icon"> <i class="fa fa-user"> </i></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="Section colm colm6">
+                                        <label for=" time" class="time-label"> Time </label>
+                                        <label for=" time" class="field prepend-icon"> </label>
+                                            <input type="text" class="gui-input" id="time" required="" />
+                                        <span class="field-icon"> <i class="fa fa-user"> </i></span>
+                                    </div>
+                                </div>
+                                <div class="form-footer">
+                                    <button type="submit" class="button btn-primary">Confirm Booking</button>
+                                    <button type="reset" class="button btn-secondary">Cancel</button>
+                                </div>
+
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+                    <!--    <div id="photos" class="shadow">
+                <img id="image2" src="images/auto.png" class="rounded" alt="autoflyer">
+                <img id="image1" src="images/carwash1.png" class="rounded " alt="carwash-mockup">
+
+            </div>
+
+                    </div>
+                    <p id="cf7_controls">
+                        <span class="selected">Image 1</span>
+                        <span>Image 2</span>
+                    </p>
+                </div>
+        </div>
+                        -->
+
+ <!-- Our Java/JQuery -->
+    </section>
+    <script>
+        $(document).ready(function () {
+            $("#cf7_controls").on('click', 'span', function () {
+                $('#photos img').removeClass("opaque");
+                var newImage = $(this).index();
+
+                $("#image img").eq(newImage).addClass("opaque");
+
+                $("#cf7_controls span").removeClass("selected");
+                $(this).addClass("selected");
+            });
+        });
+    </script>
+
+ <!-- Features -->
+
+                    <section id="features">
+                        <div class="row">
+                            <div class="feature-box col-lg-4">
+                                <i class="icon fa-solid fa-truck fa-4x"></i>
+                                <h3> Home Delivery .</h3>
+                                <p> If you can't come to us, we will go to you. </p>
+                            </div>
+
+                            <div class="feature-box col-lg-4">
+                                <i class="icon fa-solid fa-bullseye fa-4x"></i>
+
+                                <h3>Elite Clientele</h3>
+                                <p> If your car is beyond dirty, don't worry we can take it. </p>
+                            </div>
+
+                            <div class="feature-box col-lg-4">
+                                <i class="icon fa-solid fa-heart fa-4x"></i>
+                                <h3>Guaranteed to work</h3>
+                                <p> Quality service at your doorstep</p>
+                            </div>
+                        </div>
+                    </section>
+
+
+
+   <!-- Testimonials -->
+
+                    <section id="testimonials">
+                        <h3 id="cli"> Happy Clients!</h3>
+
+                        <h2 class="text3">My car has never felt this clean before. Beyond happy with my results, Maximo did a great job. Thank you!</h2>
+                        <img class="clients1" src="images/clients.png" alt="clients-profile">
+                        <p id="sl">Palm Beach, Florida </p>
+
+
+
+                        <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+        <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+        <em>Beverly, Illinois</em> -->
+
+                    </section>
+
+
+    
+        <!-- Pricing -->
+
+                    <section id="pricing">
+
+                        <h2>A Plan for Every Car's Needs</h2>
+                        <p>Simple and affordable price plans for you and your car.</p>
+
+
+                        <h3>Chihuahua</h3>
+                        <h2>Free</h2>
+                        <p>5 Matches Per Day</p>
+                        <p>10 Messages Per Day</p>
+                        <p>Unlimited App Usage</p>
+                        <button type="button"> AVAILABILITY</button>
+
+
+                        <h3>Labrador</h3>
+                        <h2>$49 / mo</h2>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+                        <button type="button">AVAILABILITY</button>
+
+
+                        <h3>Mastiff</h3>
+                        <h2>$99 / mo</h2>
+                        <p>Pirority Listing</p>
+                        <p>Unlimited Matches</p>
+                        <p>Unlimited Messages</p>
+                        <p>Unlimited App Usage</p>
+                        <button type="button">AVAILABILITY</button>
+
+                    </section>
+
+
+  <!-- Call to Action -->
+
+                    <section id="cta">
+
+                        <h3>See us you must, or else you will rust.</h3>
+                        <h4> Make your APPOINTMENT now!</h4>
+                        <button type="button"> Appointment</button>
+
+                    </section>
+
+
+  <!-- Footer -->
+
+                    <footer id="footer">
+
+                        <p> � Copyright CarWash </p>
+
+                    </footer>
+
+
+</body>
+
+</html>
